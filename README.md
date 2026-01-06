@@ -4,8 +4,8 @@
 For a bigger table, see [Kakoune explain keys](https://delapouite.github.io/kakoune-explain/keys.html)
 
 <table><thead><tr><th>Key</th><th>Description</th><th>ALT&nbsp;+&nbsp;key</th><th>CTRL&nbsp;+&nbsp;key</th><th>g&nbsp;key&nbsp;(goto)</th></tr></thead><tbody>
-<tr><th>j</th><td>move down</td><td>join lines</td><td>([[ambiguous|Ambiguous-Keys]])</td><td>buffer bottom</td></tr>
-<tr><th>J</th><td>extend down</td><td>join lines and select spaces</td><td></td><td></td></tr>
+<tr><th>j</th><td>join lines and select spaces</td><td>join lines</td><td></td><td>buffer bottom</td></tr>
+<tr><th>J</th><td></td><td></td><td></td><td></td></tr>
 <tr><th>k</th><td>move up</td><td>keep selections matching given regex</td><td>redo last selection change</td><td>buffer top</td></tr>
 <tr><th>K</th><td>extend up</td><td>keep selections not matching given regex</td><td/><td></td></tr>
 <tr><th>l</th><td>move right</td><td>select to line end</td><td>force screen redraw</td><td>line end</td></tr>
